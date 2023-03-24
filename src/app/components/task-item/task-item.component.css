@@ -1,0 +1,18 @@
+.task{
+    background-color:beige;
+    margin: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.task h3{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+.task p{
+    margin-top: 5px;
+}
+
