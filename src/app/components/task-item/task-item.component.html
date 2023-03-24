@@ -1,4 +1,6 @@
 <div class="task">
-    <h3>{{ taskItem.text }}</h3>
+    <h3>{{ taskItem.text }} 
+        <mat-icon [ngStyle]="{'color': 'red' }">delete</mat-icon>
+    </h3>
     <p>{{ taskItem.day }}</p>
 </div>
